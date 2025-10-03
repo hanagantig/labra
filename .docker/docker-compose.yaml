@@ -11,6 +11,8 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.labra-api.rule=Host(`api.labra.ae`)"
       - "traefik.http.routers.labra-api.entrypoints=websecure"
+      - "traefik.http.routers.labra-api.tls=true"
+      - "traefik.http.routers.labra-api.tls.certresolver=letsEncryptProd"
       - "traefik.http.services.labra-api.loadbalancer.server.port=80"
 
 volumes:
