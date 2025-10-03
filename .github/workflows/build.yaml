@@ -63,19 +63,19 @@ jobs:
             smtp_host: ${{ vars.SMTP_HOST }}
             smtp_port: ${{ vars.SMTP_PORT }}
             auth_email: ${{ vars.SMTP_EMAIL }}
-            auth_password: ${{ secrets.SMTP_PASSWORD }}
+            auth_password: "${{ secrets.SMTP_PASSWORD }}"
           
           main_db:
             port: ${{ vars.MAIN_DB_PORT }}
             host: ${{ vars.MAIN_DB_HOST }}
             user: ${{ vars.MAIN_DB_USER }}
-            password: ${{ secrets.MAIN_DB_PASSWORD }}
+            password: "${{ secrets.MAIN_DB_PASSWORD }}"
             name: ${{ vars.MAIN_DB_NAME }}
             charset: "utf8mb4"
           
           docupanda_client:
             base_url: ${{ vars.DOCUPANDA_BASE_URL }}
-            api_key: ${{ secrets.DOCUPANDA_API_KEY }}
+            api_key: "${{ secrets.DOCUPANDA_API_KEY }}"
           EOF
           
           scp -o StrictHostKeyChecking=no config.yaml ${{ vars.DEPLOY_USER }}@${{ vars.DEPLOY_HOST }}:${{ vars.PROJECT_PATH }}/config.yaml
