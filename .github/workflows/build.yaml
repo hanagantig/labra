@@ -78,7 +78,7 @@ jobs:
             api_key: "${{ secrets.DOCUPANDA_API_KEY }}"
           EOF
           
-          scp -o StrictHostKeyChecking=no config.yaml ${{ vars.DEPLOY_USER }}@${{ vars.DEPLOY_HOST }}:${{ vars.PROJECT_PATH }}/config.yaml
+          scp -o StrictHostKeyChecking=no config.yaml ${{ vars.DEPLOY_USER }}@${{ vars.DEPLOY_HOST }}:${{ vars.PROJECT_PATH }}/config/app.conf.yaml
       
 
       - name: Build

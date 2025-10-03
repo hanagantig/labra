@@ -3,14 +3,10 @@ version: '3.9'
 services:
   labra:
     image: ghcr.io/hanagantig/labra:${CI_COMMIT_SHORT_SHA}
-    environment:
-      - DB_NAME=${DB_NAME}
-      - DB_HOST=${DB_HOST}
-      - DB_PORT=${DB_PORT}
-      - DB_USER=${DB_USER}
-      - DB_PASSWORD=${DB_PASSWORD}
     networks:
       - internal
+    volumes:
+      - ./config/app.conf.yaml:/config/app.conf.yaml:ro
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.labra-api.rule=Host(`api.labra.ae`)"
