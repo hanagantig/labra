@@ -70,7 +70,7 @@ func (a *App) newMySQLxConnect(cfg config.SQLConfig) (*sqlx.DB, error) {
 
 func (a *App) newPostgresConnect(cfg config.SQLConfig) (*sqlx.DB, error) {
 	connStr := fmt.Sprintf(
-		"user=%s dbname=%s sslmode=disable password=%s host=%s port=%s",
+		"user=%s dbname=%s password=%s host=%s port=%s",
 		cfg.User, cfg.DBName, cfg.Password, cfg.Host, cfg.Port,
 	)
 
