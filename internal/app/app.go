@@ -56,7 +56,7 @@ func NewApp(configPath string) (*App, error) {
 	//goro:init healthChecker
 	//app.initHealthChecker()
 
-	mysqlxConn, err := app.newMySQLxConnect(cfg.MainDB)
+	mysqlxConn, err := app.newPostgresConnect(cfg.MainDB)
 	if err != nil {
 		return nil, err
 	}

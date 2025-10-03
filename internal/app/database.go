@@ -9,6 +9,7 @@ import (
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
+	_ "github.com/lib/pq"
 	"labra/internal/config"
 	"net/url"
 	"strconv"
@@ -51,6 +52,29 @@ func (a *App) newMySQLxConnect(cfg config.SQLConfig) (*sqlx.DB, error) {
 	dsn := builder.String()
 
 	db, err := sqlx.Open("mysql", dsn)
+	if err != nil {
+		return nil, err
+	}
+
+	err = db.Ping()
+	if err != nil {
+		return nil, err
+	}
+
+	db.SetConnMaxLifetime(cfg.ConnMaxLifetime)
+	db.SetMaxOpenConns(cfg.MaxOpenConns)
+	db.SetMaxIdleConns(cfg.MaxIdleConns)
+
+	return db, nil
+}
+
+func (a *App) newPostgresConnect(cfg config.SQLConfig) (*sqlx.DB, error) {
+	connStr := fmt.Sprintf(
+		"user=%s dbname=%s sslmode=disable password=%s host=%s",
+		cfg.User, cfg.DBName, cfg.Password, cfg.Host,
+	)
+
+	db, err := sqlx.Open("postgres", connStr)
 	if err != nil {
 		return nil, err
 	}

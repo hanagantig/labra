@@ -19,6 +19,7 @@ require (
 	github.com/hanagantig/cron v1.0.1
 	github.com/hanagantig/gracy v0.0.0-20231003055507-4d3ebe0e0a0a
 	github.com/jmoiron/sqlx v1.4.0
+	github.com/lib/pq v1.10.9
 	github.com/martoche/pdf v0.0.0-20170913195834-7423397b5b61
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.19.0

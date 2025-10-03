@@ -303,6 +303,11 @@ github.com/jmoiron/sqlx/reflectx
 # github.com/josharian/intern v1.0.0
 ## explicit; go 1.5
 github.com/josharian/intern
+# github.com/lib/pq v1.10.9
+## explicit; go 1.13
+github.com/lib/pq
+github.com/lib/pq/oid
+github.com/lib/pq/scram
 # github.com/magiconair/properties v1.8.7
 ## explicit; go 1.19
 github.com/magiconair/properties
