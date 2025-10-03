@@ -1,0 +1,2652 @@
+[
+  {
+    "text": "TSH  =  2.465 мкМЕ/мл ~(0.35 - 5.1)\nRBC\n-\n5.2 10^12/L ~(4.18 - 5.48)\nVitamin D\t→\t18.24 нг/мл (30 - 100)\nHemoglobin   —   155 г/л (132 - 173)\nCholesterol   -   7.12 мм/л (0 - 5.2)\nWBC   -   7.8 10*9/л (3.91 - 8.77)\nGlucose  →  4.92 мм/л (4.11 - 5.89)\nПациент: Смирнова Мария Олеговна, Дата рождения: 03.07.2001\nДата исследования: 03.02.2022\nЛаборатория: KDL\n",
+    "label": {
+      "lab": "KDL",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "03.07.2001",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: Invitro\nПациент: Иванов Иван Иванович\nДата рождения: 10.11.1990\nДата исследования: 14.06.2024\n\nVitamin D   —   18.24 нг/мл '(30 - 100)\nCholesterol   →   7.12 мм/л (0 - 5.2)\nGlucose\n:\n4.92 mmol/L (4.11 - 5.89)\nHemoglobin\n-\n155 г/л (132 - 173)\nRBC\n-\n5.2 10*12/л (4.18 - 5.48)\nWBC\n-\n7.8 10e9/l (3.91 - 8.77)\nTSH  -  2.465 мкМЕ/мл (0.35 - 5.1)\n",
+    "label": {
+      "lab": "Invitro",
+      "patient": "Иванов Иван Иванович",
+      "dob": "10.11.1990",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Vitamin D\n:\n18.24 нг/мл \"(30 - 100)\nRBC\n:\n5.2 10*12/л (4.18 - 5.48)\nGlucose   —   4.92 мм/л (4.11 - 5.89)\nWBC\t-\t7.8 10e9/l (3.91 - 8.77)\nTSH\n:\n2.465 мкМЕ/мл `(0.35 - 5.1)\nHemoglobin\n-\n155 г/л _(132 - 173)\nCholesterol    —    7.12 mmol/L (0 - 5.2)\nОбследуемый: Петров Петр Петрович, дата рождения: 15.09.1978\nДата сдачи анализа: 25.11.2021\nЛаборатория: Gemotest.\n",
+    "label": {
+      "lab": "Gemotest",
+      "patient": "Петров Петр Петрович",
+      "dob": "15.09.1978",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: Lab4U\nПациент: Иванов Иван Иванович\nДата рождения: 03.07.2001\nДата исследования: 03.02.2022\n\nWBC  →  7.8 10e9/l ~(3.91 - 8.77)\nRBC\n→\n5.2 10*12/л (4.18 - 5.48)\nGlucose   -   4.92 mmol/L \"(4.11 - 5.89)\nCholesterol\n:\n7.12 mmol/L (0 - 5.2)\nVitamin D  -  18.24 нг/мл \"(30 - 100)\nTSH\n→\n2.465 мкМЕ/мл '(0.35 - 5.1)\nHemoglobin   =   155 г/л `(132 - 173)\n",
+    "label": {
+      "lab": "Lab4U",
+      "patient": "Иванов Иван Иванович",
+      "dob": "03.07.2001",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 20.07.2023\nПациент: Сидорова Анна Дмитриевна (22.05.1985)\nЛаборатория: Helix\nРезультаты:\nRBC\t→\t5.2 10^12/L (4.18 - 5.48)\nVitamin D  -  18.24 нг/мл (30 - 100)\nTSH  -  2.465 мкМЕ/мл *(0.35 - 5.1)\nCholesterol\n-\n7.12 mmol/L (0 - 5.2)\nWBC  =  7.8 10^9/L (3.91 - 8.77)\nGlucose\n-\n4.92 mmol/L (4.11 - 5.89)\nHemoglobin  =  155 г/л (132 - 173)\n",
+    "label": {
+      "lab": "Helix",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "22.05.1985",
+      "test_date": "20.07.2023",
+      "tests": [
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 18.09.2020\nПациент: Петров Петр Петрович (15.09.1978)\nЛаборатория: Invitro\nРезультаты:\nTSH   -   2.465 мкМЕ/мл (0.35 - 5.1)\nWBC    —    7.8 10^9/L (3.91 - 8.77)\nGlucose  →  4.92 мм/л (4.11 - 5.89)\nRBC\t:\t5.2 10^12/L (4.18 - 5.48)\nHemoglobin\n→\n155 г/л (132 - 173)\nVitamin D\n→\n18.24 нг/мл (30 - 100)\nCholesterol\t=\t7.12 mmol/L (0 - 5.2)\n",
+    "label": {
+      "lab": "Invitro",
+      "patient": "Петров Петр Петрович",
+      "dob": "15.09.1978",
+      "test_date": "18.09.2020",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        }
+      ]
+    }
+  },
+  {
+    "text": "WBC\n:\n7.8 10e9/l (3.91 - 8.77)\nGlucose\n=\n4.92 mmol/L (4.11 - 5.89)\nTSH   =   2.465 мкМЕ/мл `(0.35 - 5.1)\nVitamin D\t — \t18.24 нг/мл `(30 - 100)\nCholesterol\n — \n7.12 mmol/L (0 - 5.2)\nHemoglobin  -  155 г/л \"(132 - 173)\nRBC\t=\t5.2 10*12/л (4.18 - 5.48)\nПациент: Васильев Алексей Иванович, Дата рождения: 22.05.1985\nДата исследования: 18.09.2020\nЛаборатория: Invitro\n",
+    "label": {
+      "lab": "Invitro",
+      "patient": "Васильев Алексей Иванович",
+      "dob": "22.05.1985",
+      "test_date": "18.09.2020",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 03.02.2022\nПациент: Смирнова Мария Олеговна (15.09.1978)\nЛаборатория: Medsi\nРезультаты:\nTSH  :  2.465 мкМЕ/мл (0.35 - 5.1)\nCholesterol  :  7.12 mmol/L (0 - 5.2)\nRBC\t — \t5.2 10*12/л _(4.18 - 5.48)\nGlucose  →  4.92 mmol/L (4.11 - 5.89)\nVitamin D  =  18.24 нг/мл (30 - 100)\nWBC\t:\t7.8 10e9/l (3.91 - 8.77)\nHemoglobin  :  155 г/л _(132 - 173)\n",
+    "label": {
+      "lab": "Medsi",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "15.09.1978",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: CMD\nПациент: Кузнецов Андрей Викторович\nДата рождения: 10.11.1990\nДата исследования: 07.04.2019\n\nHemoglobin\t-\t155 г/л (132 - 173)\nCholesterol  →  7.12 mmol/L `(0 - 5.2)\nTSH\n→\n2.465 мкМЕ/мл '(0.35 - 5.1)\nVitamin D\t-\t18.24 нг/мл (30 - 100)\nWBC   =   7.8 10*9/л (3.91 - 8.77)\nRBC\n:\n5.2 10*12/л (4.18 - 5.48)\nGlucose\t→\t4.92 mmol/L (4.11 - 5.89)\n",
+    "label": {
+      "lab": "CMD",
+      "patient": "Кузнецов Андрей Викторович",
+      "dob": "10.11.1990",
+      "test_date": "07.04.2019",
+      "tests": [
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 14.06.2024\nПациент: Васильев Алексей Иванович (22.05.1985)\nЛаборатория: Helix\nРезультаты:\nTSH\n-\n2.465 мкМЕ/мл (0.35 - 5.1)\nCholesterol  →  7.12 мм/л (0 - 5.2)\nHemoglobin  :  155 г/л (132 - 173)\nVitamin D   —   18.24 нг/мл (30 - 100)\nGlucose\t:\t4.92 mmol/L (4.11 - 5.89)\nWBC   →   7.8 10^9/L (3.91 - 8.77)\nRBC   —   5.2 10^12/L (4.18 - 5.48)\n",
+    "label": {
+      "lab": "Helix",
+      "patient": "Васильев Алексей Иванович",
+      "dob": "22.05.1985",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Vitamin D\t=\t18.24 нг/мл (30 - 100)\nWBC\n-\n7.8 10e9/l (3.91 - 8.77)\nRBC    —    5.2 10^12/L ~(4.18 - 5.48)\nCholesterol  :  7.12 mmol/L _(0 - 5.2)\nGlucose  =  4.92 мм/л (4.11 - 5.89)\nHemoglobin\n:\n155 г/л *(132 - 173)\nTSH\t=\t2.465 мкМЕ/мл (0.35 - 5.1)\nОбследуемый: Петров Петр Петрович, дата рождения: 22.05.1985\nДата сдачи анализа: 14.06.2024\nЛаборатория: Gemotest.\n",
+    "label": {
+      "lab": "Gemotest",
+      "patient": "Петров Петр Петрович",
+      "dob": "22.05.1985",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        }
+      ]
+    }
+  },
+  {
+    "text": "WBC   -   7.8 10*9/л (3.91 - 8.77)\nTSH\n — \n2.465 мкМЕ/мл (0.35 - 5.1)\nHemoglobin  =  155 г/л (132 - 173)\nCholesterol  →  7.12 mmol/L (0 - 5.2)\nVitamin D    —    18.24 нг/мл (30 - 100)\nGlucose\n-\n4.92 мм/л \"(4.11 - 5.89)\nRBC\n-\n5.2 10^12/L '(4.18 - 5.48)\nОбследуемый: Петров Петр Петрович, дата рождения: 17.12.1988\nДата сдачи анализа: 14.06.2024\nЛаборатория: Synevo.\n",
+    "label": {
+      "lab": "Synevo",
+      "patient": "Петров Петр Петрович",
+      "dob": "17.12.1988",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Glucose\t:\t4.92 mmol/L (4.11 - 5.89)\nTSH  :  2.465 мкМЕ/мл (0.35 - 5.1)\nCholesterol\n=\n7.12 mmol/L (0 - 5.2)\nWBC  -  7.8 10e9/l (3.91 - 8.77)\nRBC  -  5.2 10^12/L '(4.18 - 5.48)\nVitamin D\t:\t18.24 нг/мл ~(30 - 100)\nHemoglobin\n=\n155 г/л (132 - 173)\nОбследуемый: Смирнова Мария Олеговна, дата рождения: 22.05.1985\nДата сдачи анализа: 25.11.2021\nЛаборатория: CMD.\n",
+    "label": {
+      "lab": "CMD",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "22.05.1985",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 18.09.2020\nПациент: Смирнова Мария Олеговна (17.12.1988)\nЛаборатория: Helix\nРезультаты:\nGlucose\n-\n4.92 мм/л (4.11 - 5.89)\nTSH   —   2.465 мкМЕ/мл (0.35 - 5.1)\nCholesterol\n=\n7.12 mmol/L '(0 - 5.2)\nVitamin D\n-\n18.24 нг/мл (30 - 100)\nHemoglobin\t→\t155 г/л \"(132 - 173)\nWBC  =  7.8 10^9/L *(3.91 - 8.77)\nRBC\n-\n5.2 10^12/L (4.18 - 5.48)\n",
+    "label": {
+      "lab": "Helix",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "17.12.1988",
+      "test_date": "18.09.2020",
+      "tests": [
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Vitamin D   -   18.24 нг/мл (30 - 100)\nCholesterol\n→\n7.12 mmol/L `(0 - 5.2)\nGlucose\n-\n4.92 mmol/L _(4.11 - 5.89)\nWBC  -  7.8 10e9/l `(3.91 - 8.77)\nTSH\n:\n2.465 мкМЕ/мл (0.35 - 5.1)\nRBC  :  5.2 10*12/л *(4.18 - 5.48)\nHemoglobin  =  155 г/л (132 - 173)\nПациент: Смирнова Мария Олеговна, Дата рождения: 15.09.1978\nДата исследования: 14.06.2024\nЛаборатория: Invitro\n",
+    "label": {
+      "lab": "Invitro",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "15.09.1978",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 25.11.2021\nПациент: Иванов Иван Иванович (03.07.2001)\nЛаборатория: KDL\nРезультаты:\nTSH\t-\t2.465 мкМЕ/мл '(0.35 - 5.1)\nHemoglobin\n→\n155 г/л (132 - 173)\nGlucose\n-\n4.92 mmol/L (4.11 - 5.89)\nRBC\n→\n5.2 10^12/L `(4.18 - 5.48)\nVitamin D  →  18.24 нг/мл '(30 - 100)\nWBC   —   7.8 10e9/l \"(3.91 - 8.77)\nCholesterol   →   7.12 mmol/L ~(0 - 5.2)\n",
+    "label": {
+      "lab": "KDL",
+      "patient": "Иванов Иван Иванович",
+      "dob": "03.07.2001",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Vitamin D  :  18.24 нг/мл (30 - 100)\nHemoglobin  -  155 г/л (132 - 173)\nWBC\n→\n7.8 10e9/l (3.91 - 8.77)\nGlucose    —    4.92 мм/л (4.11 - 5.89)\nCholesterol\t→\t7.12 mmol/L (0 - 5.2)\nTSH   →   2.465 мкМЕ/мл (0.35 - 5.1)\nRBC\t:\t5.2 10^12/L (4.18 - 5.48)\nОбследуемый: Кузнецов Андрей Викторович, дата рождения: 17.12.1988\nДата сдачи анализа: 14.06.2024\nЛаборатория: Helix.\n",
+    "label": {
+      "lab": "Helix",
+      "patient": "Кузнецов Андрей Викторович",
+      "dob": "17.12.1988",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: Medsi\nПациент: Васильев Алексей Иванович\nДата рождения: 22.05.1985\nДата исследования: 03.02.2022\n\nHemoglobin    —    155 г/л (132 - 173)\nGlucose\t:\t4.92 mmol/L \"(4.11 - 5.89)\nRBC   :   5.2 10*12/л (4.18 - 5.48)\nWBC   -   7.8 10e9/l (3.91 - 8.77)\nCholesterol   =   7.12 mmol/L ~(0 - 5.2)\nVitamin D\t→\t18.24 нг/мл (30 - 100)\nTSH\t→\t2.465 мкМЕ/мл ~(0.35 - 5.1)\n",
+    "label": {
+      "lab": "Medsi",
+      "patient": "Васильев Алексей Иванович",
+      "dob": "22.05.1985",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        }
+      ]
+    }
+  },
+  {
+    "text": "TSH\t — \t2.465 мкМЕ/мл (0.35 - 5.1)\nGlucose    —    4.92 mmol/L (4.11 - 5.89)\nWBC  -  7.8 10e9/l (3.91 - 8.77)\nCholesterol  →  7.12 mmol/L '(0 - 5.2)\nVitamin D  →  18.24 нг/мл (30 - 100)\nRBC\n:\n5.2 10*12/л ~(4.18 - 5.48)\nHemoglobin   —   155 г/л (132 - 173)\nПациент: Смирнова Мария Олеговна, Дата рождения: 22.05.1985\nДата исследования: 07.04.2019\nЛаборатория: Lab4U\n",
+    "label": {
+      "lab": "Lab4U",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "22.05.1985",
+      "test_date": "07.04.2019",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: Helix\nПациент: Иванов Иван Иванович\nДата рождения: 17.12.1988\nДата исследования: 07.04.2019\n\nCholesterol\n→\n7.12 мм/л `(0 - 5.2)\nHemoglobin\n-\n155 г/л (132 - 173)\nGlucose  =  4.92 mmol/L `(4.11 - 5.89)\nVitamin D\t→\t18.24 нг/мл _(30 - 100)\nRBC\t-\t5.2 10*12/л _(4.18 - 5.48)\nTSH\t→\t2.465 мкМЕ/мл (0.35 - 5.1)\nWBC  :  7.8 10^9/L ~(3.91 - 8.77)\n",
+    "label": {
+      "lab": "Helix",
+      "patient": "Иванов Иван Иванович",
+      "dob": "17.12.1988",
+      "test_date": "07.04.2019",
+      "tests": [
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: Invitro\nПациент: Кузнецов Андрей Викторович\nДата рождения: 10.11.1990\nДата исследования: 20.07.2023\n\nTSH\t:\t2.465 мкМЕ/мл (0.35 - 5.1)\nRBC\n — \n5.2 10^12/L (4.18 - 5.48)\nGlucose\n — \n4.92 мм/л (4.11 - 5.89)\nHemoglobin\n-\n155 г/л (132 - 173)\nWBC  →  7.8 10e9/l (3.91 - 8.77)\nCholesterol\t→\t7.12 мм/л (0 - 5.2)\nVitamin D  :  18.24 нг/мл (30 - 100)\n",
+    "label": {
+      "lab": "Invitro",
+      "patient": "Кузнецов Андрей Викторович",
+      "dob": "10.11.1990",
+      "test_date": "20.07.2023",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 14.06.2024\nПациент: Петров Петр Петрович (22.05.1985)\nЛаборатория: CMD\nРезультаты:\nRBC\n-\n5.2 10^12/L (4.18 - 5.48)\nTSH\n:\n2.465 мкМЕ/мл \"(0.35 - 5.1)\nCholesterol   —   7.12 мм/л (0 - 5.2)\nHemoglobin\n→\n155 г/л (132 - 173)\nWBC\t→\t7.8 10e9/l \"(3.91 - 8.77)\nVitamin D\n-\n18.24 нг/мл (30 - 100)\nGlucose  →  4.92 mmol/L (4.11 - 5.89)\n",
+    "label": {
+      "lab": "CMD",
+      "patient": "Петров Петр Петрович",
+      "dob": "22.05.1985",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Cholesterol\n→\n7.12 мм/л _(0 - 5.2)\nWBC\t→\t7.8 10^9/L (3.91 - 8.77)\nHemoglobin\t=\t155 г/л (132 - 173)\nGlucose   :   4.92 мм/л (4.11 - 5.89)\nRBC\t:\t5.2 10*12/л *(4.18 - 5.48)\nTSH\t — \t2.465 мкМЕ/мл (0.35 - 5.1)\nVitamin D\n-\n18.24 нг/мл (30 - 100)\nПациент: Сидорова Анна Дмитриевна, Дата рождения: 10.11.1990\nДата исследования: 14.06.2024\nЛаборатория: CMD\n",
+    "label": {
+      "lab": "CMD",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "10.11.1990",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Vitamin D   →   18.24 нг/мл (30 - 100)\nWBC  =  7.8 10e9/l (3.91 - 8.77)\nRBC  =  5.2 10^12/L _(4.18 - 5.48)\nCholesterol  →  7.12 mmol/L (0 - 5.2)\nTSH\n:\n2.465 мкМЕ/мл (0.35 - 5.1)\nGlucose   :   4.92 mmol/L ~(4.11 - 5.89)\nHemoglobin\n→\n155 г/л (132 - 173)\nОбследуемый: Смирнова Мария Олеговна, дата рождения: 22.05.1985\nДата сдачи анализа: 03.02.2022\nЛаборатория: Medsi.\n",
+    "label": {
+      "lab": "Medsi",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "22.05.1985",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: CMD\nПациент: Кузнецов Андрей Викторович\nДата рождения: 15.09.1978\nДата исследования: 07.04.2019\n\nVitamin D  -  18.24 нг/мл `(30 - 100)\nTSH  →  2.465 мкМЕ/мл _(0.35 - 5.1)\nGlucose\t→\t4.92 мм/л (4.11 - 5.89)\nCholesterol  →  7.12 мм/л (0 - 5.2)\nHemoglobin    —    155 г/л (132 - 173)\nWBC\t — \t7.8 10e9/l (3.91 - 8.77)\nRBC\t-\t5.2 10^12/L (4.18 - 5.48)\n",
+    "label": {
+      "lab": "CMD",
+      "patient": "Кузнецов Андрей Викторович",
+      "dob": "15.09.1978",
+      "test_date": "07.04.2019",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: Gemotest\nПациент: Сидорова Анна Дмитриевна\nДата рождения: 03.07.2001\nДата исследования: 25.11.2021\n\nCholesterol  =  7.12 мм/л _(0 - 5.2)\nGlucose  →  4.92 mmol/L _(4.11 - 5.89)\nTSH\n=\n2.465 мкМЕ/мл '(0.35 - 5.1)\nRBC\t-\t5.2 10^12/L _(4.18 - 5.48)\nVitamin D   =   18.24 нг/мл '(30 - 100)\nWBC  :  7.8 10e9/l (3.91 - 8.77)\nHemoglobin   =   155 г/л (132 - 173)\n",
+    "label": {
+      "lab": "Gemotest",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "03.07.2001",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "WBC  :  7.8 10*9/л (3.91 - 8.77)\nRBC   =   5.2 10^12/L _(4.18 - 5.48)\nVitamin D\n=\n18.24 нг/мл (30 - 100)\nTSH  :  2.465 мкМЕ/мл *(0.35 - 5.1)\nGlucose\t:\t4.92 мм/л (4.11 - 5.89)\nHemoglobin   -   155 г/л (132 - 173)\nCholesterol   :   7.12 mmol/L (0 - 5.2)\nОбследуемый: Иванов Иван Иванович, дата рождения: 10.11.1990\nДата сдачи анализа: 14.06.2024\nЛаборатория: KDL.\n",
+    "label": {
+      "lab": "KDL",
+      "patient": "Иванов Иван Иванович",
+      "dob": "10.11.1990",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: Medsi\nПациент: Смирнова Мария Олеговна\nДата рождения: 22.05.1985\nДата исследования: 03.02.2022\n\nWBC   :   7.8 10e9/l (3.91 - 8.77)\nTSH    —    2.465 мкМЕ/мл (0.35 - 5.1)\nGlucose\n=\n4.92 мм/л '(4.11 - 5.89)\nRBC   →   5.2 10*12/л _(4.18 - 5.48)\nHemoglobin  →  155 г/л (132 - 173)\nCholesterol\n=\n7.12 мм/л '(0 - 5.2)\nVitamin D  :  18.24 нг/мл (30 - 100)\n",
+    "label": {
+      "lab": "Medsi",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "22.05.1985",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        }
+      ]
+    }
+  },
+  {
+    "text": "TSH\n-\n2.465 мкМЕ/мл (0.35 - 5.1)\nWBC  →  7.8 10*9/л `(3.91 - 8.77)\nCholesterol   —   7.12 мм/л (0 - 5.2)\nHemoglobin   :   155 г/л _(132 - 173)\nRBC\n→\n5.2 10^12/L (4.18 - 5.48)\nGlucose\t→\t4.92 mmol/L (4.11 - 5.89)\nVitamin D  =  18.24 нг/мл '(30 - 100)\nПациент: Иванов Иван Иванович, Дата рождения: 28.02.1995\nДата исследования: 25.11.2021\nЛаборатория: Lab4U\n",
+    "label": {
+      "lab": "Lab4U",
+      "patient": "Иванов Иван Иванович",
+      "dob": "28.02.1995",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Cholesterol\n:\n7.12 мм/л '(0 - 5.2)\nGlucose\n=\n4.92 mmol/L _(4.11 - 5.89)\nHemoglobin   →   155 г/л (132 - 173)\nTSH\t — \t2.465 мкМЕ/мл (0.35 - 5.1)\nRBC   -   5.2 10*12/л (4.18 - 5.48)\nVitamin D\t — \t18.24 нг/мл (30 - 100)\nWBC  :  7.8 10e9/l (3.91 - 8.77)\nОбследуемый: Кузнецов Андрей Викторович, дата рождения: 10.11.1990\nДата сдачи анализа: 25.11.2021\nЛаборатория: Helix.\n",
+    "label": {
+      "lab": "Helix",
+      "patient": "Кузнецов Андрей Викторович",
+      "dob": "10.11.1990",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Glucose\t-\t4.92 мм/л (4.11 - 5.89)\nHemoglobin  →  155 г/л (132 - 173)\nWBC   =   7.8 10e9/l (3.91 - 8.77)\nCholesterol\t:\t7.12 mmol/L _(0 - 5.2)\nTSH\t=\t2.465 мкМЕ/мл \"(0.35 - 5.1)\nVitamin D  →  18.24 нг/мл (30 - 100)\nRBC   -   5.2 10^12/L (4.18 - 5.48)\nПациент: Сидорова Анна Дмитриевна, Дата рождения: 15.09.1978\nДата исследования: 14.06.2024\nЛаборатория: Synevo\n",
+    "label": {
+      "lab": "Synevo",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "15.09.1978",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: KDL\nПациент: Петров Петр Петрович\nДата рождения: 22.05.1985\nДата исследования: 14.06.2024\n\nHemoglobin\n:\n155 г/л \"(132 - 173)\nWBC\t-\t7.8 10*9/л (3.91 - 8.77)\nCholesterol\t→\t7.12 mmol/L (0 - 5.2)\nGlucose  :  4.92 mmol/L (4.11 - 5.89)\nRBC  :  5.2 10^12/L (4.18 - 5.48)\nVitamin D  →  18.24 нг/мл `(30 - 100)\nTSH\n:\n2.465 мкМЕ/мл (0.35 - 5.1)\n",
+    "label": {
+      "lab": "KDL",
+      "patient": "Петров Петр Петрович",
+      "dob": "22.05.1985",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        }
+      ]
+    }
+  },
+  {
+    "text": "WBC\t — \t7.8 10e9/l (3.91 - 8.77)\nCholesterol\t=\t7.12 мм/л (0 - 5.2)\nVitamin D  →  18.24 нг/мл (30 - 100)\nRBC   -   5.2 10*12/л (4.18 - 5.48)\nGlucose\n→\n4.92 mmol/L (4.11 - 5.89)\nTSH\t:\t2.465 мкМЕ/мл `(0.35 - 5.1)\nHemoglobin   :   155 г/л (132 - 173)\nОбследуемый: Кузнецов Андрей Викторович, дата рождения: 28.02.1995\nДата сдачи анализа: 03.02.2022\nЛаборатория: Lab4U.\n",
+    "label": {
+      "lab": "Lab4U",
+      "patient": "Кузнецов Андрей Викторович",
+      "dob": "28.02.1995",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: Medsi\nПациент: Сидорова Анна Дмитриевна\nДата рождения: 10.11.1990\nДата исследования: 07.04.2019\n\nHemoglobin   =   155 г/л (132 - 173)\nVitamin D\t:\t18.24 нг/мл (30 - 100)\nGlucose\n — \n4.92 мм/л ~(4.11 - 5.89)\nWBC\n→\n7.8 10^9/L (3.91 - 8.77)\nTSH\n→\n2.465 мкМЕ/мл ~(0.35 - 5.1)\nRBC\n:\n5.2 10*12/л ~(4.18 - 5.48)\nCholesterol  -  7.12 мм/л (0 - 5.2)\n",
+    "label": {
+      "lab": "Medsi",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "10.11.1990",
+      "test_date": "07.04.2019",
+      "tests": [
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        }
+      ]
+    }
+  },
+  {
+    "text": "RBC  →  5.2 10*12/л '(4.18 - 5.48)\nGlucose  :  4.92 мм/л *(4.11 - 5.89)\nTSH   :   2.465 мкМЕ/мл (0.35 - 5.1)\nHemoglobin   —   155 г/л (132 - 173)\nVitamin D   -   18.24 нг/мл ~(30 - 100)\nWBC\t — \t7.8 10e9/l (3.91 - 8.77)\nCholesterol    —    7.12 mmol/L (0 - 5.2)\nОбследуемый: Смирнова Мария Олеговна, дата рождения: 22.05.1985\nДата сдачи анализа: 14.06.2024\nЛаборатория: Gemotest.\n",
+    "label": {
+      "lab": "Gemotest",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "22.05.1985",
+      "test_date": "14.06.2024",
+      "tests": [
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        }
+      ]
+    }
+  },
+  {
+    "text": "TSH\t:\t2.465 мкМЕ/мл (0.35 - 5.1)\nWBC  →  7.8 10^9/L (3.91 - 8.77)\nCholesterol\n — \n7.12 mmol/L (0 - 5.2)\nGlucose\n→\n4.92 мм/л (4.11 - 5.89)\nVitamin D\t-\t18.24 нг/мл *(30 - 100)\nRBC   —   5.2 10^12/L _(4.18 - 5.48)\nHemoglobin\n=\n155 г/л (132 - 173)\nОбследуемый: Сидорова Анна Дмитриевна, дата рождения: 22.05.1985\nДата сдачи анализа: 25.11.2021\nЛаборатория: Invitro.\n",
+    "label": {
+      "lab": "Invitro",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "22.05.1985",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 03.02.2022\nПациент: Смирнова Мария Олеговна (17.12.1988)\nЛаборатория: KDL\nРезультаты:\nTSH\t — \t2.465 мкМЕ/мл _(0.35 - 5.1)\nVitamin D\t-\t18.24 нг/мл (30 - 100)\nRBC  -  5.2 10^12/L (4.18 - 5.48)\nWBC\n→\n7.8 10e9/l (3.91 - 8.77)\nCholesterol   :   7.12 мм/л (0 - 5.2)\nGlucose  -  4.92 mmol/L (4.11 - 5.89)\nHemoglobin\t:\t155 г/л (132 - 173)\n",
+    "label": {
+      "lab": "KDL",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "17.12.1988",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "WBC\n→\n7.8 10^9/L (3.91 - 8.77)\nTSH   —   2.465 мкМЕ/мл (0.35 - 5.1)\nCholesterol  :  7.12 mmol/L (0 - 5.2)\nRBC\n=\n5.2 10*12/л (4.18 - 5.48)\nGlucose   :   4.92 мм/л (4.11 - 5.89)\nHemoglobin\n→\n155 г/л (132 - 173)\nVitamin D\t=\t18.24 нг/мл _(30 - 100)\nПациент: Иванов Иван Иванович, Дата рождения: 28.02.1995\nДата исследования: 25.11.2021\nЛаборатория: Lab4U\n",
+    "label": {
+      "lab": "Lab4U",
+      "patient": "Иванов Иван Иванович",
+      "dob": "28.02.1995",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        }
+      ]
+    }
+  },
+  {
+    "text": "WBC\n:\n7.8 10^9/L '(3.91 - 8.77)\nVitamin D\n=\n18.24 нг/мл `(30 - 100)\nRBC\n:\n5.2 10*12/л '(4.18 - 5.48)\nHemoglobin   →   155 г/л (132 - 173)\nCholesterol  =  7.12 mmol/L \"(0 - 5.2)\nTSH    —    2.465 мкМЕ/мл (0.35 - 5.1)\nGlucose\n-\n4.92 mmol/L \"(4.11 - 5.89)\nОбследуемый: Иванов Иван Иванович, дата рождения: 17.12.1988\nДата сдачи анализа: 20.07.2023\nЛаборатория: Medsi.\n",
+    "label": {
+      "lab": "Medsi",
+      "patient": "Иванов Иван Иванович",
+      "dob": "17.12.1988",
+      "test_date": "20.07.2023",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        }
+      ]
+    }
+  },
+  {
+    "text": "TSH\t:\t2.465 мкМЕ/мл _(0.35 - 5.1)\nCholesterol\t-\t7.12 mmol/L (0 - 5.2)\nHemoglobin   —   155 г/л \"(132 - 173)\nRBC\t — \t5.2 10^12/L (4.18 - 5.48)\nWBC\n=\n7.8 10*9/л (3.91 - 8.77)\nVitamin D   :   18.24 нг/мл (30 - 100)\nGlucose\t-\t4.92 мм/л (4.11 - 5.89)\nОбследуемый: Петров Петр Петрович, дата рождения: 15.09.1978\nДата сдачи анализа: 20.07.2023\nЛаборатория: Gemotest.\n",
+    "label": {
+      "lab": "Gemotest",
+      "patient": "Петров Петр Петрович",
+      "dob": "15.09.1978",
+      "test_date": "20.07.2023",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 20.07.2023\nПациент: Петров Петр Петрович (15.09.1978)\nЛаборатория: Invitro\nРезультаты:\nVitamin D   :   18.24 нг/мл \"(30 - 100)\nRBC\n:\n5.2 10^12/L (4.18 - 5.48)\nGlucose\t-\t4.92 мм/л (4.11 - 5.89)\nWBC\t-\t7.8 10*9/л `(3.91 - 8.77)\nHemoglobin\n:\n155 г/л (132 - 173)\nCholesterol\t:\t7.12 мм/л (0 - 5.2)\nTSH  -  2.465 мкМЕ/мл (0.35 - 5.1)\n",
+    "label": {
+      "lab": "Invitro",
+      "patient": "Петров Петр Петрович",
+      "dob": "15.09.1978",
+      "test_date": "20.07.2023",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 03.02.2022\nПациент: Сидорова Анна Дмитриевна (22.05.1985)\nЛаборатория: Medsi\nРезультаты:\nTSH  →  2.465 мкМЕ/мл (0.35 - 5.1)\nHemoglobin\t:\t155 г/л (132 - 173)\nGlucose\n→\n4.92 мм/л (4.11 - 5.89)\nWBC\n:\n7.8 10*9/л (3.91 - 8.77)\nVitamin D    —    18.24 нг/мл (30 - 100)\nRBC\t→\t5.2 10*12/л (4.18 - 5.48)\nCholesterol  :  7.12 mmol/L (0 - 5.2)\n",
+    "label": {
+      "lab": "Medsi",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "22.05.1985",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Vitamin D  -  18.24 нг/мл (30 - 100)\nCholesterol\t — \t7.12 мм/л ~(0 - 5.2)\nHemoglobin\n:\n155 г/л (132 - 173)\nRBC\n=\n5.2 10*12/л (4.18 - 5.48)\nTSH   -   2.465 мкМЕ/мл (0.35 - 5.1)\nGlucose   →   4.92 mmol/L (4.11 - 5.89)\nWBC\n-\n7.8 10e9/l ~(3.91 - 8.77)\nОбследуемый: Иванов Иван Иванович, дата рождения: 28.02.1995\nДата сдачи анализа: 03.02.2022\nЛаборатория: Medsi.\n",
+    "label": {
+      "lab": "Medsi",
+      "patient": "Иванов Иван Иванович",
+      "dob": "28.02.1995",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 25.11.2021\nПациент: Иванов Иван Иванович (17.12.1988)\nЛаборатория: Lab4U\nРезультаты:\nCholesterol   :   7.12 мм/л (0 - 5.2)\nRBC\t:\t5.2 10*12/л (4.18 - 5.48)\nHemoglobin  -  155 г/л \"(132 - 173)\nGlucose  -  4.92 mmol/L (4.11 - 5.89)\nVitamin D\t — \t18.24 нг/мл (30 - 100)\nTSH\t — \t2.465 мкМЕ/мл ~(0.35 - 5.1)\nWBC   =   7.8 10*9/л (3.91 - 8.77)\n",
+    "label": {
+      "lab": "Lab4U",
+      "patient": "Иванов Иван Иванович",
+      "dob": "17.12.1988",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        }
+      ]
+    }
+  },
+  {
+    "text": "RBC\t:\t5.2 10*12/л (4.18 - 5.48)\nVitamin D  -  18.24 нг/мл (30 - 100)\nTSH\n-\n2.465 мкМЕ/мл (0.35 - 5.1)\nGlucose  →  4.92 mmol/L (4.11 - 5.89)\nHemoglobin   —   155 г/л (132 - 173)\nCholesterol    —    7.12 mmol/L (0 - 5.2)\nWBC\t-\t7.8 10e9/l (3.91 - 8.77)\nПациент: Иванов Иван Иванович, Дата рождения: 10.11.1990\nДата исследования: 07.04.2019\nЛаборатория: Synevo\n",
+    "label": {
+      "lab": "Synevo",
+      "patient": "Иванов Иван Иванович",
+      "dob": "10.11.1990",
+      "test_date": "07.04.2019",
+      "tests": [
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        }
+      ]
+    }
+  },
+  {
+    "text": "TSH\n→\n2.465 мкМЕ/мл *(0.35 - 5.1)\nHemoglobin   :   155 г/л _(132 - 173)\nVitamin D  :  18.24 нг/мл (30 - 100)\nWBC  :  7.8 10*9/л (3.91 - 8.77)\nCholesterol  =  7.12 mmol/L (0 - 5.2)\nGlucose\t-\t4.92 mmol/L (4.11 - 5.89)\nRBC   -   5.2 10*12/л (4.18 - 5.48)\nПациент: Сидорова Анна Дмитриевна, Дата рождения: 22.05.1985\nДата исследования: 18.09.2020\nЛаборатория: Synevo\n",
+    "label": {
+      "lab": "Synevo",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "22.05.1985",
+      "test_date": "18.09.2020",
+      "tests": [
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Лаборатория: CMD\nПациент: Сидорова Анна Дмитриевна\nДата рождения: 10.11.1990\nДата исследования: 25.11.2021\n\nWBC    —    7.8 10^9/L (3.91 - 8.77)\nGlucose  →  4.92 mmol/L (4.11 - 5.89)\nTSH   =   2.465 мкМЕ/мл (0.35 - 5.1)\nCholesterol\t:\t7.12 мм/л (0 - 5.2)\nVitamin D\n→\n18.24 нг/мл (30 - 100)\nHemoglobin   —   155 г/л (132 - 173)\nRBC\n:\n5.2 10*12/л (4.18 - 5.48)\n",
+    "label": {
+      "lab": "CMD",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "10.11.1990",
+      "test_date": "25.11.2021",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Vitamin D\n — \n18.24 нг/мл (30 - 100)\nRBC   :   5.2 10*12/л (4.18 - 5.48)\nWBC\n-\n7.8 10*9/л (3.91 - 8.77)\nTSH\t→\t2.465 мкМЕ/мл *(0.35 - 5.1)\nCholesterol\n — \n7.12 мм/л (0 - 5.2)\nGlucose   :   4.92 mmol/L *(4.11 - 5.89)\nHemoglobin   —   155 г/л `(132 - 173)\nПациент: Сидорова Анна Дмитриевна, Дата рождения: 17.12.1988\nДата исследования: 18.09.2020\nЛаборатория: CMD\n",
+    "label": {
+      "lab": "CMD",
+      "patient": "Сидорова Анна Дмитриевна",
+      "dob": "17.12.1988",
+      "test_date": "18.09.2020",
+      "tests": [
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Дата исследования: 20.07.2023\nПациент: Смирнова Мария Олеговна (03.07.2001)\nЛаборатория: KDL\nРезультаты:\nRBC\t-\t5.2 10^12/L _(4.18 - 5.48)\nCholesterol    —    7.12 mmol/L (0 - 5.2)\nVitamin D\n-\n18.24 нг/мл (30 - 100)\nWBC\t — \t7.8 10*9/л \"(3.91 - 8.77)\nGlucose  →  4.92 мм/л (4.11 - 5.89)\nHemoglobin\t=\t155 г/л (132 - 173)\nTSH  =  2.465 мкМЕ/мл ~(0.35 - 5.1)\n",
+    "label": {
+      "lab": "KDL",
+      "patient": "Смирнова Мария Олеговна",
+      "dob": "03.07.2001",
+      "test_date": "20.07.2023",
+      "tests": [
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        }
+      ]
+    }
+  },
+  {
+    "text": "WBC  →  7.8 10*9/л (3.91 - 8.77)\nTSH   →   2.465 мкМЕ/мл (0.35 - 5.1)\nVitamin D\t:\t18.24 нг/мл (30 - 100)\nCholesterol  -  7.12 mmol/L (0 - 5.2)\nRBC\t:\t5.2 10*12/л (4.18 - 5.48)\nGlucose\n→\n4.92 мм/л (4.11 - 5.89)\nHemoglobin\t→\t155 г/л (132 - 173)\nОбследуемый: Кузнецов Андрей Викторович, дата рождения: 15.09.1978\nДата сдачи анализа: 03.02.2022\nЛаборатория: Medsi.\n",
+    "label": {
+      "lab": "Medsi",
+      "patient": "Кузнецов Андрей Викторович",
+      "dob": "15.09.1978",
+      "test_date": "03.02.2022",
+      "tests": [
+        {
+          "test_name": "WBC",
+          "result": 7.8,
+          "unit": "10⁹/л",
+          "reference": "3.91 - 8.77"
+        },
+        {
+          "test_name": "TSH",
+          "result": 2.465,
+          "unit": "мкМЕ/мл",
+          "reference": "0.35 - 5.1"
+        },
+        {
+          "test_name": "Vitamin D",
+          "result": 18.24,
+          "unit": "нг/мл",
+          "reference": "30 - 100"
+        },
+        {
+          "test_name": "Cholesterol",
+          "result": 7.12,
+          "unit": "ммоль/л",
+          "reference": "0 - 5.2"
+        },
+        {
+          "test_name": "RBC",
+          "result": 5.2,
+          "unit": "10¹²/л",
+          "reference": "4.18 - 5.48"
+        },
+        {
+          "test_name": "Glucose",
+          "result": 4.92,
+          "unit": "ммоль/л",
+          "reference": "4.11 - 5.89"
+        },
+        {
+          "test_name": "Hemoglobin",
+          "result": 155,
+          "unit": "г/л",
+          "reference": "132 - 173"
+        }
+      ]
+    }
+  }
+]

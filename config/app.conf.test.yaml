@@ -1,0 +1,22 @@
+auth:
+  access_token_secret: "access-token-secret"
+  refresh_token_secret: "refresh-token-secret"
+  refresh_token_ttl: 5h
+
+http:
+  port: 8099
+  host: "localhost"
+  read_timeout: "3s"
+  write_timeout: "3s"
+
+main_db:
+  port: 3306
+  host: "localhost"
+  user: "root"
+  password: "12345"
+  name: "mego_api_test"
+  charset: "utf8mb4"
+
+docupanda_client:
+  base_url: "http://localhost:5577"
+  api_key: "123456789"

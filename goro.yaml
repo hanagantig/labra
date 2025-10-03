@@ -1,0 +1,32 @@
+app:
+  name: mego
+  module: mego
+  work_dir: ""
+
+storages:
+  - mysqlx
+
+handlers:
+  - http
+
+use_case:
+  deps:
+    - MyService
+  methods:
+    - GetClients
+    - SignIn
+    - SignUp
+    - Pong
+
+services:
+  - name: MyService
+    methods:
+      - FileToText
+    deps:
+      - MyRepo
+
+adapters:
+  - name: MyRepo
+    storage: mysqlx
+    methods:
+      - GetOne

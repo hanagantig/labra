@@ -1,0 +1,33 @@
+http:
+  port: 8095
+  host: "localhost"
+  read_timeout: "3s"
+  write_timeout: "3s"
+
+auth:
+  access_token_ttl: 15m
+  refresh_token_ttl: 360h
+
+email:
+  smtp_host: "smtp.gmail.com"
+  smtp_port: 587
+  auth_email: "hanagantig@gmail.com"
+  auth_password: "vlmn biqp ruqk fnwm"
+
+main_db:
+  port: 3306
+  host: "localhost"
+  user: "root"
+  password: "12345"
+  name: "mego"
+  charset: "utf8mb4"
+
+redis:
+  port: 3306
+  host: "localhost"
+  user: "root"
+  password: "12345"
+
+docupanda_client:
+  base_url: "https://app.docupanda.io"
+  api_key: "Z8EpZBk8apQl9tVahUZSKKwg7q93"

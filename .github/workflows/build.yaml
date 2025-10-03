@@ -1,0 +1,102 @@
+name: Deploy Labra
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  REGISTRY: ghcr.io
+
+
+jobs:
+  deploy:
+    environment: production
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Set outputs
+        id: vars
+        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.9.1
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
+      - name: Copy docker-compose to server
+        run: |
+          scp -o StrictHostKeyChecking=no .docker/docker-compose.yaml ${{ vars.DEPLOY_USER }}@${{ vars.DEPLOY_HOST }}:${{ vars.PROJECT_PATH }}/docker-compose.yaml
+
+      - name: Copy configs to server
+        run: |
+          cat << 'EOF' > config.yaml
+          http:
+            port: ${{ vars.HTTP_PORT }}
+            host: ${{ vars.HTTP_HOST }}
+            read_timeout: "3s"
+            write_timeout: "3s"
+          
+          auth:
+            access_token_ttl: 15m
+            refresh_token_ttl: 360h
+          
+          email:
+            smtp_host: ${{ vars.SMTP_HOST }}
+            smtp_port: ${{ vars.SMTP_PORT }}
+            auth_email: ${{ vars.SMTP_EMAIL }}
+            auth_password: ${{ secrets.SMTP_PASSWORD }}
+          
+          main_db:
+            port: ${{ vars.MAIN_DB_PORT }}
+            host: ${{ vars.MAIN_DB_HOST }}
+            user: ${{ vars.MAIN_DB_USER }}
+            password: ${{ secrets.MAIN_DB_PASSWORD }}
+            name: ${{ vars.MAIN_DB_NAME }}
+            charset: "utf8mb4"
+          
+          docupanda_client:
+            base_url: ${{ vars.DOCUPANDA_BASE_URL }}
+            api_key: ${{ secrets.DOCUPANDA_API_KEY }}
+          EOF
+      
+
+      - name: Build
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./.docker/Dockerfile
+          push: true
+          tags: |
+            ghcr.io/${{ github.actor }}/labra:${{ steps.vars.outputs.sha_short }}
+
+      - name: Deploy
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ vars.DEPLOY_USER }}@${{ vars.DEPLOY_HOST }} << 'EOF'
+            echo "CI_COMMIT_SHORT_SHA=${{ steps.vars.outputs.sha_short }}" > ${{ vars.PROJECT_PATH }}/.env
+          
+            cd ${{ vars.PROJECT_PATH }}
+            
+            echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io --username ${{ github.actor }} --password-stdin
+            docker-compose pull
+            docker-compose down
+            docker-compose up -d --force-recreate
+          EOF

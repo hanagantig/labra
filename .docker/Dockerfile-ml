@@ -1,0 +1,25 @@
+# Используем официальный образ Python 3.9
+FROM python:3.9
+
+# Устанавливаем системные зависимости
+RUN apt-get update && apt-get install -y \
+    tesseract-ocr \
+    libtesseract-dev \
+    poppler-utils \
+    curl \
+    libgl1-mesa-glx \
+    && rm -rf /var/lib/apt/lists/*
+
+# Устанавливаем Python-библиотеки
+RUN pip install --no-cache-dir \
+    torch transformers onnxruntime fastapi uvicorn \
+    pytesseract pdf2image Pillow numpy pandas opencv-python
+
+# Создаём рабочую директорию
+WORKDIR /workspace
+
+# Открываем порт для возможности запуска API (если потребуется)
+EXPOSE 8000
+
+# Оставляем контейнер в интерактивном режиме (можно запускать Python)
+CMD ["bash"]

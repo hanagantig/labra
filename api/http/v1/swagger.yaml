@@ -1,0 +1,1317 @@
+swagger: "2.0"
+
+basePath: /api/v1
+consumes:
+  - application/json
+info:
+  version: 1.0.0
+  title: title
+  description: description
+  termsOfService: terms
+  license:
+    name: MIT
+    url: http://opensource.org/licenses/MIT
+
+paths:
+  /signin:
+    post:
+      operationId: SignIn
+      summary: SignIn user
+      tags:
+        - Auth
+      parameters:
+        - in: body
+          name: body
+          schema:
+            $ref: '#/definitions/SignInRequest'
+      responses:
+        200:
+          description: User Token
+          schema:
+            $ref: '#/definitions/ApiAuthToken'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+  /signup:
+    post:
+      operationId: SignUp
+      summary: SignUp user
+      tags:
+        - Auth
+      parameters:
+        - in: body
+          name: body
+          schema:
+            $ref: '#/definitions/SignInRequest'
+      responses:
+        200:
+          description: User Token
+          schema:
+            $ref: '#/definitions/ApiAuthToken'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+  /otp:
+    post:
+      operationId: SendOTP
+      summary: Send OTP code to user
+      tags:
+        - Auth
+      parameters:
+        - in: body
+          name: body
+          schema:
+            $ref: '#/definitions/OTPRequest'
+      responses:
+        204:
+          description: No Content
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+  /account:
+    get:
+      operationId: Account
+      tags:
+        - Auth
+      produces:
+        - application/json
+      responses:
+        200:
+          description: User profile
+          schema:
+            $ref: '#/definitions/Profile'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        401:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        500:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+
+  /contacts:
+    post:
+      operationId: CreateContact
+      summary: Add new contact
+      tags:
+        - Contacts
+      parameters:
+        - in: body
+          name: body
+          schema:
+            $ref: '#/definitions/VerifyContactRequest'
+      responses:
+        200:
+          description: Recognized results
+          schema:
+            $ref: '#/definitions/Success'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+  /contacts/{contact_id}:
+    delete:
+      operationId: DeleteContact
+      summary: Delete contact by id
+      tags:
+        - Contacts
+      parameters:
+        - name: contact_id
+          in: path
+          type: string
+          required: true
+          description: contact id
+      responses:
+        200:
+          description: Recognized results
+          schema:
+            $ref: '#/definitions/Success'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+  /contacts/{contact_id}/verify:
+    post:
+      operationId: VerifyContact
+      summary: Verify
+      tags:
+        - Contacts
+      parameters:
+        - name: contact_id
+          in: path
+          type: string
+          required: true
+          description: contact id
+        - in: body
+          name: body
+          schema:
+            $ref: '#/definitions/VerifyContactRequest'
+      responses:
+        200:
+          description: Recognized results
+          schema:
+            $ref: '#/definitions/Success'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+
+  /account/profiles/{profile_id}/checkups/{checkup_id}:
+    get:
+      operationId: Checkup
+      tags:
+        - Checkups
+      parameters:
+        - name: profile_id
+          in: path
+          type: string
+          required: true
+          description: profile id
+        - name: checkup_id
+          in: path
+          type: string
+          required: true
+          description: checkup id
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Checkup details
+          schema:
+            $ref: '#/definitions/CheckupWithResults'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+    patch:
+      operationId: UpdateCheckup
+      tags:
+        - Checkups
+      parameters:
+        - name: profile_id
+          in: path
+          type: string
+          required: true
+          description: profile id
+        - name: checkup_id
+          in: path
+          type: string
+          required: true
+          description: checkup id
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Checkup details
+          schema:
+            $ref: '#/definitions/CheckupUpdateRequest'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+    delete:
+      operationId: CheckupDelete
+      tags:
+        - Checkups
+      parameters:
+        - name: profile_id
+          in: path
+          type: string
+          required: true
+          description: profile id
+        - name: checkup_id
+          in: path
+          type: string
+          required: true
+          description: checkup id
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Checkup details
+          schema:
+            $ref: '#/definitions/CheckupResult'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+
+  /account/profiles/{profile_id}/checkups:
+    get:
+      operationId: ProfileCheckups
+      tags:
+        - Checkups
+      parameters:
+        - name: profile_id
+          in: path
+          type: string
+          required: true
+          description: profile id
+
+        - name: filter[from]
+          in: query
+          type: integer
+          format: int64
+          required: false
+          description: Start timestamp (Unix)
+
+        - name: filter[to]
+          in: query
+          type: integer
+          format: int64
+          required: false
+          description: End timestamp (Unix)
+
+        - name: filter[tags]
+          in: query
+          type: array
+          collectionFormat: multi
+          items:
+            type: string
+          required: false
+          description: Filter by user tags
+
+        - name: filter[categories]
+          in: query
+          type: array
+          collectionFormat: multi
+          items:
+            type: string
+          required: false
+          description: Filter by test categories
+
+        - name: filter[lab_ids]
+          in: query
+          type: array
+          collectionFormat: multi
+          items:
+            type: string
+          required: false
+          description: Filter by lab IDs
+
+        - name: filter[recognition_status]
+          in: query
+          type: string
+          enum: [ recognized, failed, pending ]
+          required: false
+          description: File recognition status
+
+        - name: filter[source]
+          in: query
+          type: string
+          enum: [ manual, imported, clinic ]
+          required: false
+          description: Source of checkup
+
+        - name: filter[value_flag]
+          in: query
+          type: string
+          enum: [ low, high, normal ]
+          required: false
+          description: Test value abnormality flag
+      produces:
+        - application/json
+      responses:
+        200:
+          description: List of checkups
+          schema:
+            $ref: '#/definitions/CheckupsResponse'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+    post:
+      operationId: AddCheckup
+      tags:
+        - Checkups
+      parameters:
+        - name: profile_id
+          in: path
+          type: string
+          required: true
+          description: profile id
+        - in: body
+          name: body
+          schema:
+            $ref: '#/definitions/CheckupResult'
+      produces:
+        - application/json
+      consumes:
+        - multipart/form-data
+      responses:
+        200:
+          description: Recognized results
+          schema:
+            $ref: '#/definitions/CheckupResult'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+
+  /account/profiles/{profile_id}/checkups/ocr:
+    post:
+      operationId: AddCheckupFile
+      tags:
+        - Checkups
+      parameters:
+        - name: profile_id
+          in: path
+          type: string
+          required: true
+          description: profile id
+        - in: formData
+          name: report
+          type: file
+          description: A report file with test results to upload.
+      produces:
+        - application/json
+      consumes:
+        - multipart/form-data
+      responses:
+        200:
+          description: Recognized results
+          schema:
+            $ref: '#/definitions/CheckupResult'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+
+  /account/profiles:
+    get:
+      operationId: Profiles
+      produces:
+        - application/json
+      responses:
+        200:
+          description: List of account profiles
+          schema:
+            $ref: '#/definitions/CheckupsResponse'
+        400:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        401:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        500:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+      tags:
+        - Profiles
+    post:
+      operationId: CreateProfile
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          schema:
+            $ref: '#/definitions/Person'
+      responses:
+        200:
+          description: Create profile for account
+          schema:
+            $ref: '#/definitions/Success'
+        201:
+          description: Create profile for account
+          schema:
+            $ref: '#/definitions/Success'
+        400:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        401:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        500:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+      tags:
+        - Profiles
+
+  /account/profiles/{profile_id}:
+    get:
+      operationId: Profile
+      tags:
+        - Profiles
+      parameters:
+        - name: profile_id
+          in: path
+          required: true
+          type: string
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Account profile
+          schema:
+            $ref: '#/definitions/CheckupsResponse'
+        400:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        401:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        500:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+    patch:
+      operationId: UpdateProfile
+      tags:
+        - Profiles
+      parameters:
+        - name: profile_id
+          in: path
+          required: true
+          type: string
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Update profile for account
+          schema:
+            $ref: '#/definitions/Success'
+        201:
+          description: Create profile for account
+          schema:
+            $ref: '#/definitions/Success'
+        400:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        401:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        500:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+    delete:
+      operationId: DeleteProfile
+      tags:
+        - Profiles
+      parameters:
+        - name: profile_id
+          in: path
+          required: true
+          type: string
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Delete success status
+          schema:
+            $ref: '#/definitions/Success'
+        400:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        401:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        500:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+
+  /account/profiles/{profile_id}/checkups/charts:
+    get:
+      operationId: Charts
+      parameters:
+        - name: profile_id
+          in: path
+          required: true
+          type: string
+        - in: query
+          name: from
+          type: integer
+          required: true
+          description: from timestamp
+        - in: query
+          name: to
+          type: integer
+          required: true
+          description: to timestamp
+
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Get charts data
+          schema:
+            $ref: '#/definitions/Chart'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+      tags:
+        - Assessment
+
+  /marker:
+    get:
+      operationId: Markers
+
+      produces:
+        - application/json
+      responses:
+        200:
+          description: List of available markers
+          schema:
+            $ref: '#/definitions/Chart'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+      tags:
+        - Assessment
+
+  /dictionaries:
+    get:
+      operationId: GetDictionaries
+      summary: Get dictionaries data
+      description: Returns lists of available markers and units
+      tags:
+        - Dictionaries
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Dictionary data with markers and units
+          schema:
+            $ref: '#/definitions/DictionariesResponse'
+        404:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+        500:
+          description: Base ApiError
+          schema:
+            $ref: '#/definitions/ApiError'
+
+# securityDefinitions:
+#   ApiKeyAuth:
+#     type: apiKey
+#     in: header
+#     name: Authorization
+
+definitions:
+
+  Account:
+    description: User profile with dashboards
+    type: object
+    properties:
+      profiles:
+        type: array
+        items:
+          $ref: '#/definitions/Profile'
+      labs:
+        type: array
+        items:
+          $ref: '#/definitions/Lab'
+      user:
+        type: object
+        $ref: '#/definitions/User'
+      charts:
+        type: array
+        items:
+          $ref: '#/definitions/Chart'
+
+  ProfilesResponse:
+    description: List of user profiles
+    type: array
+    items:
+      $ref: '#/definitions/Profile'
+
+  Chart:
+    description: Data to represent on chart (time series)
+    type: object
+    properties:
+      title:
+        type: string
+        example: "Custom dashboard"
+      min_x:
+        type: number
+        example: 0
+      min_y:
+        type: number
+        example: 0
+      max_x:
+        type: number
+        example: 0
+      max_y:
+        type: number
+        example: 0
+      data:
+        type: array
+        items:
+          $ref: '#/definitions/TimeSeriesData'
+      annotations:
+        type: array
+        items:
+          $ref: '#/definitions/ChartAnnotation'
+#      timestamps:
+#        type: array
+#        items:
+#          type: integer
+
+  Markers:
+    description: "A list of Marker objects"
+    type: array
+    items:
+      $ref: '#/definitions/Marker'
+
+  Datapoint:
+    type: object
+    properties:
+      value:
+        type: number
+        x-omitempty: false
+      timestamp:
+        type: number
+        x-omitempty: false
+
+  TimeSeriesData:
+    description: Time series data point
+    properties:
+      id:
+        type: integer
+        x-omitempty: false
+      title:
+        type: string
+        x-omitempty: false
+        example: "hemoglobin"
+      unit:
+        type: string
+        x-omitempty: false
+        example: "g/dL"
+      type:
+        type: string
+        x-omitempty: false
+        example: "line"
+      style:
+        type: object
+        $ref: '#/definitions/ChartStyle'
+      spots:
+        type: array
+        items:
+          $ref: '#/definitions/ChartSpot'
+
+  ChartSpot:
+    description: Chart point coordinates
+    type: object
+    properties:
+      x:
+        type: number
+        x-omitempty: false
+      y:
+        type: number
+        x-omitempty: false
+
+  ChartAnnotation:
+    description: Chart annotation
+    type: object
+    properties:
+      start:
+        type: number
+        x-omitempty: false
+      end:
+        type: number
+        x-omitempty: false
+      axis:
+        type: string
+        x-omitempty: false
+      style:
+        type: object
+        $ref: '#/definitions/ChartStyle'
+
+
+  ChartStyle:
+    description: Chart item style
+    type: object
+    properties:
+      primary_color:
+        type: integer
+        x-omitempty: false
+      secondary_color:
+        type: integer
+        x-omitempty: false
+      opacity:
+        type: number
+        x-omitempty: false
+
+  Device:
+    description: User device info
+    type: object
+    properties:
+      device_id:
+        type: string
+        x-omitempty: true
+      secondary_id:
+        type: string
+        x-omitempty: true
+      adv_id:
+        type: string
+        x-omitempty: true
+      model:
+        type: string
+        x-omitempty: true
+      brand:
+        type: string
+        x-omitempty: true
+      os:
+        type: string
+        x-omitempty: true
+      os_version:
+        type: string
+        x-omitempty: true
+      platform:
+        type: string
+        x-omitempty: true
+      browser:
+        type: string
+        x-omitempty: true
+      browser_version:
+        type: string
+        x-omitempty: true
+
+  VerifyContactRequest:
+    description: VerifyRequest data
+    type: object
+    properties:
+      login:
+        type: string
+      password:
+        type: string
+      code:
+        type: string
+    required:
+      - login
+      - code
+
+  VerifyContactResponse:
+    description: Verify User Response data
+    type: object
+    properties:
+      user:
+        type: object
+        $ref: '#/definitions/User'
+      token:
+        type: object
+        $ref: '#/definitions/ApiAuthToken'
+
+  ApiAuthToken:
+    description: API auth token response
+    type: object
+    properties:
+      access_token:
+        type: string
+        x-omitempty: false
+      refresh_token:
+        type: string
+        x-omitempty: false
+
+  CheckupsResponse:
+    description: list of checkups
+    type: array
+    items:
+      $ref: '#/definitions/CheckupWithResults'
+
+
+  CheckupWithResults:
+    description: Checkup with results object
+    type: object
+    properties:
+      checkup:
+        $ref: '#/definitions/Checkup'
+      results:
+        type: array
+        items:
+          $ref: '#/definitions/Marker'
+
+  Checkup:
+    description: Checkup object
+    type: object
+    properties:
+      id:
+        type: integer
+        x-omitempty: false
+      title:
+        type: string
+        x-omitempty: false
+      profile:
+        $ref: '#/definitions/Profile'
+      lab:
+        $ref: '#/definitions/Lab'
+      date:
+        type: integer
+        x-omitempty: false
+      file_id:
+        type: string
+        x-omitempty: true
+      status:
+        type: string
+        enum: [ unverified, verified ]
+        x-omitempty: false
+      material:
+        type: string
+        x-omitempty: true
+      tags:
+        type: array
+        items:
+          $ref: '#/definitions/Tag'
+
+  CheckupResult:
+    description: Recognized test results
+    type: object
+    properties:
+      profile:
+        $ref: '#/definitions/Profile'
+      lab:
+        $ref: '#/definitions/Lab'
+      date:
+        type: integer
+        x-omitempty: false
+      results:
+        type: array
+        items:
+          $ref: '#/definitions/Marker'
+
+  CheckupUpdateRequest:
+    description: Update checkup data
+    type: object
+    properties:
+      checkup:
+        $ref: '#/definitions/Checkup'
+      results_to_add:
+        type: array
+        items:
+          $ref: '#/definitions/Marker'
+      results_ids_to_delete:
+        type: array
+        items:
+          type: integer
+          format: int64
+
+  RecognizeResponse:
+    description: Recognized test results
+    type: object
+    properties:
+      profile:
+        $ref: '#/definitions/Profile'
+      lab:
+        $ref: '#/definitions/Lab'
+      date:
+        type: string
+        x-omitempty: false
+      results:
+        type: array
+        items:
+          $ref: '#/definitions/RecognizedMarker'
+
+  Unit:
+    description: marker result unit object
+    type: object
+    properties:
+      id:
+        type: number
+        format: integer
+        x-omitempty: false
+      name:
+        type: string
+        x-omitempty: false
+      full_name:
+        type: string
+        x-omitempty: true
+      description:
+        type: string
+        x-omitempty: true
+      unrecognized_name:
+        type: string
+        x-omitempty: true
+
+  Tag:
+    description: User tag object
+    type: object
+    properties:
+      name:
+        type: string
+        x-omitempty: false
+      id:
+        type: number
+        format: integer
+        x-omitempty: false
+      color:
+        type: string
+        x-omitempty: false
+      icon:
+        type: string
+        x-omitempty: false
+
+  Lab:
+    description: Lab object
+    type: object
+    properties:
+      name:
+        type: string
+        x-omitempty: false
+      id:
+        type: number
+        format: integer
+        x-omitempty: false
+
+  Person:
+    description: Person object
+    type: object
+    required:
+      - first_name
+      - gender
+    properties:
+      id:
+        type: string
+        format: string
+      first_name:
+        type: string
+        x-omitempty: true
+      date_of_birth:
+        type: string
+        #        format: date
+        x-omitempty: true
+      gender:
+        type: string
+        enum: [ M, F ]
+        x-omitempty: true
+      contacts:
+        type: array
+        x-omitempty: true
+        items:
+          $ref: '#/definitions/Contact'
+
+  PersonResponse:
+    description: Person object
+    type: object
+    properties:
+      id:
+        type: string
+        format: string
+      first_name:
+        type: string
+        x-omitempty: true
+      date_of_birth:
+        type: string
+        #        format: date
+        x-omitempty: true
+      gender:
+        type: string
+        enum: [ M, F ]
+        x-omitempty: true
+      contacts:
+        type: array
+        x-omitempty: true
+        items:
+          $ref: '#/definitions/Contact'
+
+  Profile:
+    description: Profile object
+    type: object
+    required:
+      - uuid
+    properties:
+      id:
+        type: string
+        format: string
+      uuid:
+        type: string
+        format: string
+      f_name:
+        type: string
+        x-omitempty: false
+      l_name:
+        type: string
+        x-omitempty: false
+      date_of_birth:
+        type: string
+        x-omitempty: false
+      gender:
+        type: string
+        enum: [M, F]
+      access:
+        type: string
+        enum: [ owner, editor, reader ]
+      associated_user:
+        type: string
+        format: uuid
+      contacts:
+        type: array
+        items:
+          $ref: '#/definitions/Contact'
+
+  Contact:
+    description: Contact details
+    type: object
+    properties:
+      value:
+        type: string
+      type:
+        type: string
+      is_verified:
+        type: boolean
+
+  User:
+    description: User object
+    type: object
+    properties:
+      id:
+        type: number
+        format: integer
+      username:
+        type: string
+        x-omitempty: false
+      f_name:
+        type: string
+        x-omitempty: false
+      l_name:
+        type: string
+        x-omitempty: false
+      joined_at:
+        type: string
+        x-omitempty: false
+      gender:
+        type: string
+        enum: [ M, F ]
+
+  RecognizedMarker:
+    type: object
+    properties:
+      marker:
+        $ref: '#/definitions/Marker'
+      errors:
+        $ref: '#/definitions/ErrorMessage'
+
+  Marker:
+    description: Marker with value
+    type: object
+    properties:
+      id:
+        type: number
+        format: integer
+        x-omitempty: false
+        description: "Marker ID from predefined list"
+      result_id:
+        type: number
+        format: integer
+        x-omitempty: true
+        description: "Internal result ID"
+      name:
+        type: string
+        x-omitempty: false
+      unrecognized_name:
+        type: string
+        x-omitempty: true
+      value:
+        type: number
+        x-omitempty: false
+      date:
+        type: integer
+        x-omitempty: false
+      reference_range:
+        $ref: '#/definitions/ReferenceRange'
+      unit:
+        $ref: '#/definitions/Unit'
+
+  ReferenceRange:
+    description: Reference range for marker
+    type: object
+    properties:
+      min:
+        type: number
+        x-omitempty: true
+      max:
+        type: number
+        x-omitempty: true
+
+  SignUpRequest:
+    description: SignUpRequest data
+    type: object
+    required:
+      - login
+      - password
+    properties:
+      login:
+        type: string
+        x-omitempty: false
+        minLength: 5
+      password:
+        type: string
+        format: password
+        x-omitempty: false
+        minLength: 10
+      device:
+        $ref: '#/definitions/Device'
+
+  VerifyPhoneRequest:
+    description: VerifyPhoneRequest phone
+    type: object
+    allOf:
+      - properties:
+          phone:
+            type: string
+            format: string
+            x-omitempty: false
+          code:
+            type: string
+            format: string
+            x-omitempty: false
+
+  UpdatePasswordRequest:
+    description: Update password request by verification code
+    type: object
+    properties:
+      new_password:
+        type: string
+        format: password
+        x-omitempty: false
+      code:
+        type: string
+        format: password
+        x-omitempty: false
+
+  SignInRequest:
+    description: SignInRequest data
+    type: object
+    allOf:
+      - properties:
+          login:
+            type: string
+            x-omitempty: false
+          password:
+            type: string
+            format: password
+            x-omitempty: false
+          device:
+            $ref: '#/definitions/Device'
+        required:
+          - password
+          - login
+
+  OTPRequest:
+    description: OTP request data
+    type: object
+    allOf:
+      - properties:
+          login:
+            type: string
+            x-omitempty: false
+          device:
+            $ref: '#/definitions/Device'
+        required:
+          - login
+
+  RefreshTokenRequest:
+    description: Refresh Token request data
+    type: object
+    allOf:
+      - properties:
+          refresh_token:
+            type: string
+            x-omitempty: false
+        required:
+          - refresh_token
+
+  ApiError:
+    description: Error response for api
+    type: object
+    properties:
+      code:
+        format: int64
+        type: integer
+        x-omitempty: false
+      error:
+        $ref: '#/definitions/ErrorMessage'
+
+  ErrorMessage:
+    description: Base error message
+    type: object
+    properties:
+      data:
+        type: object
+      message:
+        type: string
+
+  Success:
+    type: object
+    properties:
+      success:
+        type: string
+        x-omitempty: false
+
+  DictionariesResponse:
+    description: Dictionary data with markers and units
+    type: object
+    properties:
+      markers:
+        type: array
+        items:
+          $ref: '#/definitions/MarkerDefinition'
+      units:
+        type: array
+        items:
+          $ref: '#/definitions/Unit'
+      labs:
+        type: array
+        items:
+          $ref: '#/definitions/Lab'
+
+  MarkerDefinition:
+    description: Marker definition without value and date
+    type: object
+    properties:
+      id:
+        type: number
+        format: integer
+        x-omitempty: false
+        description: "Marker ID from predefined list"
+      name:
+        type: string
+        x-omitempty: false
+      reference_range:
+        $ref: '#/definitions/ReferenceRange'
+      unit:
+        $ref: '#/definitions/Unit'
+
