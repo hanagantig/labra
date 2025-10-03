@@ -18,4 +18,4 @@ WORKDIR /opt/bin
 
 COPY --from=build /opt/build/labra .
 
-CMD ["/opt/bin/labra", "http --config=./config.yaml"]
+CMD ["/opt/bin/labra", "http", "--config=./config.yaml"]

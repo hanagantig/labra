@@ -14,10 +14,6 @@
 /*.exe
 !/vendor/
 
-# Dependencies
-/go.mod
-/go.sum
-
 # Go module cache
 /pkg/mod/
 
