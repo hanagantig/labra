@@ -1,24 +1,21 @@
 FROM golang:1.25.1-alpine3.22 AS build
 
 ENV APP_HOME /opt/build
-COPY . $APP_HOME
-
 WORKDIR $APP_HOME
 
-RUN go build
+COPY . .
+
+RUN GOOS=linux GOARCH=amd64 go build -o labra
 
 FROM alpine:3.22
 
-ENV BUILD_DIR /opt/build
-ENV APP_HOME /opt/bin
-
-WORKDIR $APP_HOME
+WORKDIR /opt/bin
 
 #RUN apk update \
 #    && apk add ca-certificates tzdata \
 #    && ln -fns /usr/share/zoneinfo/Europe/Moscow /etc/localtime \
 #    && rm -rf /tmp/* /var/tmp/* \
 
-COPY --from=build $BUILD_DIR/labra .
+COPY --from=build /opt/build/labra .
 
-CMD ["/opt/bin/labra", "forms"]
+CMD ["/opt/bin/labra", "http --config=./config.yaml"]
